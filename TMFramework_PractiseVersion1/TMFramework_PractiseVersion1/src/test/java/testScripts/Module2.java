@@ -27,8 +27,8 @@ public class Module2 extends BaseClass
 		
 		Pg104_EmergencyContacts emergencycontacts = new Pg104_EmergencyContacts(driver);
 		emergencycontacts.clickOnAdd();
-		emergencycontacts.setName("Avinash");
-		emergencycontacts.setRelationship("Child");
+		emergencycontacts.setName("Akhila");
+		emergencycontacts.setRelationship("child");
 		emergencycontacts.setHomeTelephone("9863247966");
 		emergencycontacts.setMobile("9863201188");
 		emergencycontacts.setWorkTelephone("040-63592368");
@@ -37,5 +37,12 @@ public class Module2 extends BaseClass
 		homepage.Logout();
 
 		driver.quit();
+	}
+	
+	@Test
+	public void TC202()
+	{
+		System.out.println("tc202");
+		
 	}
 }
